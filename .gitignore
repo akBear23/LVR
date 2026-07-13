@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.eggs/
+.Python
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+__MACOSX/
+
+# Experiment tracking / logs
+wandb/
+logs/
+*.log
+
+# Checkpoints & model weights
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.bin
+
+# Data & archives
+*.zip
+*.tar
+*.tar.gz
+lvr_data/
+
+# Env / secrets
+.env
+
+# Caches
+.cache/
+grpo_retrieval/.cache/
